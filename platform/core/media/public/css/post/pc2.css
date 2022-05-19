@@ -1,0 +1,567 @@
+@charset \"utf-8\";
+
+/***************************************************************/
+/********************* メイン　背景設定等 ************************/
+/***************************************************************/
+
+body {
+    font-family: Verdana,\"游ゴシック\",YuGothic,\"ヒラギノ角ゴ ProN W3\",\"Hiragino Kaku Gothic ProN\",\"メイリオ\",Meiryo,sans-serif;
+    width: 100%;
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #FFF;
+    background-image: url(/pcimage/contents_bg.jpg?1435218337);
+    background-repeat: repeat-x;
+    background-position: 0px 0px;
+}
+
+#frame {
+    text-align: center;
+    width: 980px;
+    max-width: 1300px;
+    margin: 0px auto;
+}
+
+#wrap {
+    background-color: #FFF;
+    margin: 0 auto;
+    width: 960px;
+    max-width: 1300px;
+    text-align: left;
+    background-repeat: repeat-y;
+    background-position: left center;
+    clear: both;
+}
+
+
+
+
+/***************************************************************/
+/*********************** コンテンツヘッダ設定 *********************/
+/***************************************************************/
+
+#contents_header {	
+	padding-bottom: 10px;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-color: #ffffff;
+	background-image: url(pcimage/contents_header.jpg);
+	height: 100px;
+	width: 980px;
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+ /*/margin-top: 9px; /*IE互換用*/
+}
+
+#PageSubHeaderCopy{
+        font-size: 0px;
+	color: #555555;
+	float: left;
+	width: 0px;
+	line-height: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	text-align: left;
+}
+
+
+
+/***************************************************************/
+/************************* 記事ページ設定 ************************/
+/***************************************************************/
+
+#main .contentsbox05{
+	float: left;
+	width: 680px;
+	/*border: 1px solid #FFFFFF;*/
+	background-color: #ffffff;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	text-align: left;
+	font-size: 14px;
+	line-height: 1.8em;
+	color: #555555;
+	overflow: hidden;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#main .sample_03{
+width: 98%;
+border-collapse: separate;
+border-spacing: 0px;
+border-top: 1px solid #ccc;
+border-left: 1px solid #ccc;
+}
+#main .sample_03 th{
+width:25%;
+padding:4px;
+text-align: left;
+vertical-align: top;
+color: #444;
+background-color: #f0f0f0;
+border-left: 3px double #999;
+border-top: 1px solid #fff;
+border-right: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+}
+#main .sample_03 td{
+width:75%;
+padding:4px;
+background-color: #fafafa;
+border-right: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+}
+
+
+#main .sample_02{
+width:100%;
+border-collapse: separate;
+border-spacing: 0px;
+border-top: 1px solid #b3a286;
+border-left: 1px solid #b3a286;
+}
+
+#main .sample_02 th{
+width: 25%;
+padding: 4px;
+text-align: center;
+vertical-align: top;
+color: #444;
+background-color: #f4f2e6;
+border-top: 1px solid #fff;
+border-left: 1px solid #fff;
+border-right: 1px solid #b3a286;
+border-bottom: 1px solid #b3a286;
+}
+
+#main .sample_02 td{
+padding: 4px;
+background-color: #faf9f5;
+border-right: 1px solid #b3a286;
+border-bottom: 1px solid #b3a286;
+}
+
+
+#main #mainImg {
+    width: 650px;
+    padding: 0px;
+    background-color: #FFF;
+}
+
+
+#main #gallery .thumb {
+    float: left;
+    padding: 5px;
+}
+
+
+
+a img {border-style:none;}
+a img:hover{
+filter:alpha(opacity=80);
+opacity:0.8;
+} 
+
+#main .contentsbox05 input{
+font-size: 15px;
+font-weight: bold;
+padding: 10px;
+}
+
+/***************************************************************/
+/***************************************************************/
+/***************************************************************/
+
+#main .contents_navi{
+	float: left;
+	width: 0px;
+	border: 0px solid #ffffff;
+	margin-top: 0px;
+	margin-left: 0px;
+	text-align: left;
+	font-size: 0px;
+	line-height: 0px;
+	color: #555555;
+	padding:0px;
+	overflow: hidden;
+}
+#main .contents_navi a{
+	color: #555555;
+	text-decoration: none;
+}
+#main .contents_navi a:hover{
+	color: #555555;
+}
+
+a img {border-style:none;}
+a img:hover{
+filter:alpha(opacity=80);
+opacity:0.8;
+} 
+/***************************************************************/
+/*************************** パンくず ***************************/
+/***************************************************************/
+
+.p_navi{
+	font-size: 11px;
+	color: #aaaaaa;
+	margin-top: 10px;
+	margin-left: 20px;
+	float: left;
+}
+.p_navi a:link{
+	color: #aaaaaa;
+	text-decoration: none;
+}
+.p_navi a{
+	color: #aaaaaa;
+	text-decoration: none;
+}
+.p_navi a:hover{
+	color: #aaaaaa;
+}
+
+/***************************************************************/
+/*************************** ページバナー ***************************/
+/***************************************************************/
+
+.PageBanner01{
+	font-size: 12px;
+	margin: 10px;
+	float: left;
+}
+.PageBanner02{
+	font-size: 12px;
+	margin: 10px;
+	float: left;
+}
+
+
+
+/***************************************************************/
+/***************************************************************/
+/***************************************************************/
+
+#main .page_title {
+
+	background-image: url(pcimage/bar.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 0px;
+	width: 0px;
+	text-indent: 0px;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #555555;
+	font-size: 0px;
+	border: 0px solid #cfcfcf;
+	line-height: 0px;
+	padding-left: 0px;
+}
+#main .page_title h2{
+	font-size: 12px;
+}
+
+
+/***************************************************************/
+/***************************************************************/
+/***************************************************************/
+
+.contents_title_gray{
+	font-size: 12px;
+	line-height: 15px;
+	/*font-weight: bold;*/
+	color: #555555;
+	border: 1px solid #cfcfcf;
+	background-color: #EAEAEA;
+	width: 658px;
+	text-align: left;
+	display: block;
+	height: 15px;
+	text-indent: 20px;
+	overflow: hidden;
+	float: left;
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+.contents_title_gray a{
+	color: #555555;
+	text-decoration: none;
+}
+.contents_title_gray a:hover{
+	color: #555555;
+}
+
+/***************************************************************/
+/******************* ショッピング･カタログ機能設定 *****************/
+/***************************************************************/
+
+#main .catalog{
+	float: right;
+	width: 658px;
+	border: 1px solid #ebebeb;
+	background-color: #FFFFFF;
+
+	text-align: left;
+	font-size: 12px;
+	line-height: 1.3em;
+	color: #333333;
+	padding: 10px;
+	overflow: hidden;
+
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.prod_box{
+	width:208px;
+	height:295px;
+	margin-top:10px;
+	margin-right:5px;
+	background-color:#FAFAFA;
+	float:left;
+	display:block;
+	text-align:center;
+	overflow:hidden;
+}
+.prod_box_e{
+	width:208px;
+	height:295px;
+	margin-top:10px;
+	background-color:#FAFAFA;
+	float:right;
+	display:block;	
+	text-align:center;
+	overflow:hidden;
+}
+.prod_box a,
+.prod_box_e a{
+	width:208px;
+	height:295px;
+	display:block;
+	color: #333333;
+	text-decoration: none;
+}
+.prod_box a:hover,
+.prod_box_e a:hover{
+	width:208px;
+	height:295px;
+	background-color:#EAEAEA;
+	display:block;
+	text-decoration: none;
+}
+.prod_box img,
+.prod_box_e img{
+	width:160px;
+	height:120px;
+	padding:4px;
+	border:#CCCCCC solid 1px;
+	text-align:center;
+	float:left;
+	margin-top:10px;
+	margin-left:19px;
+}
+.prod_box  .prod_price,
+.prod_box_e  .prod_price{
+	width:158px;
+	height:60px;
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+	float:left;
+	margin-top:5px;
+	margin-left:19px;
+	color: #000000;
+	text-decoration: none;
+	overflow: hidden;
+}
+.prod_box  .prod_price img,
+.prod_box_e  .prod_price img{
+	width:50px;
+	height:15px;
+	text-align:left;
+	float:left;
+	margin:0;
+	padding:0;
+}
+.prod_box  .prod_text,
+.prod_box_e  .prod_text{
+	width:178px;
+	height:100px;
+	text-align:left;
+	font-size:12px;
+	float:left;
+	margin-top:5px;
+	margin-left:9px;
+}
+.f_price{
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	line-height:16px;
+}
+.f_priceB{
+	font-size: 16px;
+	font-weight: bold;
+	color: #CC0000;
+	text-decoration: none;
+	line-height:1.2em;
+}
+
+/*カタログ設定*/
+.catalog{
+	float: left;
+	width: 658px;
+	border: 1px solid #ebebeb;
+	background-color: #FFFFFF;
+
+	text-align: left;
+	font-size: 12px;
+	line-height: 1.3em;
+	color: #333333;
+	padding: 0px;
+	overflow: hidden;
+
+	margin-top: 5px;
+	margin-bottom: 15px;
+
+}
+.CTcateNameBox{
+	float: left;
+	width: 97%;
+	border: 1px solid #ebebeb;
+	background-color: #FFFFFF;
+	height: 100px;
+	padding: 5px;
+	overflow: hidden;
+}
+.CTcateNameSpace{
+	float: left;
+	width: 25%;
+	border-right: 1px solid #ebebeb;
+	background-color: #ebebeb;
+	padding: 5px;
+	overflow: hidden;
+	height: 90px;
+}
+.CTitemNameSpace{
+	float: left;
+	width: 20%;
+	padding: 3px;
+
+	text-align: left;
+	font-size: 12px;
+	overflow: hidden;
+	margin-bottom: 2px;
+}
+
+/*カタログ　問い合わせリンク設定*/
+.CTtitleBar{
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #999999;
+	border: 1px solid #cfcfcf;
+	background-color: #EAEAEA;
+	width: 638px;
+	text-align: left;
+	display: block;
+	height: 20px;
+	text-indent: 10px;
+	overflow: hidden;
+	float: left;
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+.CTtitleBar a{
+	color: #333333;
+	text-decoration: none;
+}
+.CTtitleBar a:hover{
+	color: #555555;
+}
+
+/*カタログ　スペック表示設定*/
+.CTspecBox{
+	float: left;
+	width: 95%;
+
+	/*border: 1px solid #ebebeb;*/
+	background-color: #FFFFFF;
+	line-height: 2em;
+	padding: 1px;
+	overflow: hidden;
+}
+.CTspecName{
+	float: left;
+	width: 30%;
+
+	text-align: left;
+	font-size: 12px;
+	overflow: hidden;
+	background-color: #ebebeb;
+	border-right: 1px solid #ebebeb;
+	line-height: 2.5em;
+	padding-left: 5px;
+}
+.CTspec{
+	float: left;
+	width: 60%;
+	padding: 3px;
+
+	text-align: left;
+	font-size: 12px;
+	overflow: hidden;
+	line-height: 2.5em;
+	padding-left: 5px;
+}
+
+
+/***************************************************************/
+/************************** BBS機能設定 *************************/
+/***************************************************************/
+
+.bbsbox{
+	font-size: 12px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+dt.bbsdt{
+	line-height: 25px;
+	padding: 3px;
+	font-size: 12px;
+	text-decoration: none;
+	margin: 3px;
+	background-color: #FFF;
+	float: left;
+	width: 620px;
+}
+.bbstitle{
+	font-size: 14px;
+	line-height: 2.0em;
+	text-decoration: none;
+	width: 600px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+
+
+/***************************************************************/
+/***************************　END　*****************************/
+/***************************************************************/

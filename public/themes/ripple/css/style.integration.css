@@ -1,0 +1,33 @@
+.tango-hotel a {
+	display: inline-block;
+    background: #141414;
+    min-width: 130px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 3px 10px;
+}
+@media screen and (max-width: 767.98px) {
+  .tango-hotel {
+  	display: none !important;
+  }
+}
+
+.pankuzu__box ul li {
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #808080;
+}
+
+#header__nav__inner ul li.menu-item-has-children ul {
+	display: none!important;
+}
+#header__nav__inner ul li.menu-item-has-children span {
+	display: none!important;
+}
+
+@media screen and (max-width: 767.98px){
+#search-btn-pc {
+    display: none;
+}
+}

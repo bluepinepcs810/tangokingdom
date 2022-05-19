@@ -1,0 +1,148 @@
+<?php
+
+return [
+    'filter'                     => 'フィルタ',
+    'everything'                 => '全部',
+    'image'                      => '画像',
+    'video'                      => 'ビデオ',
+    'document'                   => '文書',
+    'view_in'                    => 'View in',
+    'all_media'                  => 'すべてのメディア',
+    'trash'                      => 'ゴミ箱',
+    'recent'                     => '最近',
+    'favorites'                  => 'お気に入り',
+    'upload'                     => 'アップロード',
+    'create_folder'              => 'フォルダ作成',
+    'refresh'                    => 'リフレッシュ',
+    'empty_trash'                => 'ゴミ箱を空にする',
+    'search_file_and_folder'     => 'ファイル・フォルダを検索',
+    'sort'                       => 'ソート',
+    'file_name_asc'              => 'ファイル名-昇順',
+    'file_name_desc'             => 'ファイル名-降順',
+    'uploaded_date_asc'          => 'アップロード日-昇順',
+    'uploaded_date_desc'         => 'アップロード日-降順',
+    'size_asc'                   => 'サイズ-昇順',
+    'size_desc'                  => 'サイズ-降順',
+    'actions'                    => 'アクション',
+    'nothing_is_selected'        => '何も選択されていません。',
+    'insert'                     => '挿入',
+    'folder_name'                => 'フォルダ名',
+    'create'                     => '作成',
+    'rename'                     => '名前を変更',
+    'close'                      => '閉じる',
+    'save_changes'               => '変更内容を保存',
+    'move_to_trash'              => 'ゴミ箱に移動',
+    'confirm_trash'              => 'このアイテムをゴミ箱に移動しますか？',
+    'confirm'                    => '確認',
+    'confirm_delete'             => '削除',
+    'confirm_delete_description' => 'この操作は戻せません。このアイテムを削除してもよろしいでしょうか？',
+    'empty_trash_title'          => 'ゴミ箱を空にする',
+    'empty_trash_description'    => 'この操作は戻せません。このアイテムをゴミ箱に移動してもよろしいでしょうか？',
+    'up_level'                   => '上位レベルへ',
+    'upload_progress'            => 'アップロード',
+
+    'folder_created' => 'フォルダを作成しました。',
+    'gallery'        => 'メディアギャラリー',
+
+    'trash_error'                   => '選択されたアイテムの削除でエラーが発生しました。',
+    'trash_success'                 => '選択されたアイテムをゴミ箱に移動しました。',
+    'restore_error'                 => '選択されたアイテムのリストアでエラーが発生しました。',
+    'restore_success'               => '選択されたアイテムをリストアしました。',
+    'copy_success'                  => '選択されたアイテムをコピーしました。',
+    'delete_success'                => '選択されたアイテムを削除しました。',
+    'favorite_success'              => '選択されたアイテムをお気に入りへ登録しました。',
+    'remove_favorite_success'       => '選択されたアイテムをお気に入りから削除しました。',
+    'rename_error'                  => '名前を変更する時にエラーが発生しました。',
+    'rename_success'                => '名前を変更しました。',
+    'empty_trash_success'           => 'ゴミ箱を空にしました。',
+    'invalid_action'                => '無効な操作です。',
+    'file_not_exists'               => 'ファイルが存在しません。',
+    'download_file_error'           => 'ファイルダウンロード中エラーが発生しました。',
+    'missing_zip_archive_extension' => 'Please enable ZipArchive extension to download file!',
+    'can_not_download_file'         => 'ファイルをダウンロードできません。',
+    'invalid_request'               => '無効なリクエストです。',
+    'add_success'                   => 'アイテムを追加しました。',
+    'file_too_big'                  => 'ファイルが大きすぎです。最大サイズ： :size bytes',
+    'can_not_detect_file_type'      => '許可されないファイルタイプまたは無効なファイルタイプです。',
+    'upload_failed'                 => 'ファイルがアップロードされませんでした。サーバにアップロードできる最大ふぁあいるサイズは :size です。',
+
+    'menu_name' => 'メディア',
+    'add'       => 'メディア追加',
+
+    'javascript'   => [
+        'name'             => '名前',
+        'url'              => 'URL',
+        'full_url'         => 'フルURL',
+        'size'             => 'サイズ',
+        'mime_type'        => 'タイプ',
+        'created_at'       => 'アップロード日',
+        'updated_at'       => '変更日',
+        'nothing_selected' => '選択なし',
+        'visit_link'       => 'リンクを開く',
+
+        'no_item' => [
+            'all_media' => [
+                'icon'    => 'fas fa-cloud-upload-alt',
+                'title'   => 'ファイル・フォルダをここにドロップしてください。',
+                'message' => 'またはアップロードボタンをクリックしてください。',
+            ],
+            'trash'     => [
+                'icon'    => 'fas fa-trash-alt',
+                'title'   => 'ゴミ箱が空いています。',
+                'message' => 'Delete files to move them to trash automatically. Delete files from trash to remove them permanently',
+            ],
+            'favorites' => [
+                'icon'    => 'fas fa-star',
+                'title'   => 'お気に入りがまだ登録されていません。',
+                'message' => 'Add files to favorites to easily find them later',
+            ],
+            'recent'    => [
+                'icon'    => 'far fa-clock',
+                'title'   => '最近開いたものがありません。',
+                'message' => 'All recent files that you opened will be appeared here',
+            ],
+            'default'   => [
+                'icon'    => 'fas fa-sync',
+                'title'   => 'なし',
+                'message' => 'This directory has no item',
+            ],
+        ],
+
+        'clipboard' => [
+            'success' => 'ファイルリンクをクリップボードにコピーしました。',
+        ],
+
+        'message' => [
+            'error_header'   => 'エラー',
+            'success_header' => '成功',
+        ],
+
+        'download' => [
+            'error' => 'ファイルが選択されてないかまたはダウンロードできません。',
+        ],
+
+        'actions_list' => [
+            'basic' => [
+                'preview' => 'プレビュー',
+            ],
+            'file'  => [
+                'copy_link' => 'リンクコピー',
+                'rename'    => '名前を変更',
+                'make_copy' => 'コピー作成',
+            ],
+            'user'  => [
+                'favorite'        => 'お気に入りに追加',
+                'remove_favorite' => 'お気に入りを削除',
+            ],
+            'other' => [
+                'download' => 'ダウンロード',
+                'trash'    => 'ゴミ箱に移動',
+                'delete'   => '完全に削除',
+                'restore'  => 'リストア',
+            ],
+        ],
+    ],
+    'name_invalid' => 'フォルダ名に無効な文字が含まれています。',
+    'url_invalid'  => '有効なURLを入力してください。',
+    'path_invalid' => '有効なパスを入力してください。',
+];

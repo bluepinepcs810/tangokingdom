@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'create'              => '新規記事',
+    'edit'                => '記事編集',
+    'form'                => [
+        'name'                    => 'タイトル',
+        'name_placeholder'        => '記事のタイトル（最大 :c 文字）',
+        'description'             => '摘要',
+        'description_placeholder' => '記事の摘要（最大 :c 文字）',
+        'categories'              => 'カテゴリ',
+        'tags'                    => 'タグ',
+        'tags_placeholder'        => 'タグ',
+        'content'                 => '内容',
+        'is_featured'             => '注目記事',
+        'note'                    => '備考',
+        'format_type'             => '形式',
+    ],
+    'cannot_delete'       => '記事を削除できません。',
+    'post_deleted'        => '記事が削除されました。',
+    'posts'               => '記事一覧',
+    'post'                => '記事',
+    'edit_this_post'      => '記事を編集',
+    'no_new_post_now'     => '新しい記事がありません。',
+    'menu_name'           => '記事一覧',
+    'widget_posts_recent' => '最近の投稿',
+    'categories'          => 'カテゴリ一覧',
+    'category'            => 'カテゴリ',
+    'author'              => '投稿者',
+    'published_at'        => '公開日',
+];
